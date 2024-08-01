@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="google-site-verification"
+      content="eOSAnvFilS9EmZQn29Uwzg0q24AtG7YVX2Whm-9gAaI"
+    />
+    <title>Joselinbino Portfolio</title>
+    <link
+      rel="icon"
+      href="assets/img/blog/jb-high-resolution-logo-transparent (1).png"
+    />
+
+    <meta property="og:title" content="Joselinbino Portfolio" />
+    <meta
+      property="og:image"
+      content="https://github.com/Joselinbino/Portfolio/Portfolio/master/assets/img/blog/Thumbnail.png"
+    />
+    <meta
+      property="og:url"
+      content="https://github.com/Joselinbino/Portfolio/"
+    />
+    <meta property="og:description" content="Portfolio : Check it out !" />
+
+    <!-- css plugin -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/flexslider.css" />
+    <link rel="stylesheet" href="assets/css/aos.css" />
+
+    <!-- main css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style-responsives.css" />
+
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Hind:600|Lato:300,400"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- // PRELOADER BEGIN -->
+    <div id="preloader">
+      <div id="status">
+        <div class="loader-revolve center">
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!-- // PRELOADER END -->
+
+    <div class="svg hide" id="svg"></div>
+
+    <!-- // NAVIGATION BEGIN -->
+    <div id="navigation">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="logo">
+              <img
+                src="assets/img/blog/jb-high-resolution-logo-transparent (1).png"
+                alt=""
+                style="
+                  height: 35px;
+                  width: 35px;
+                  float: left;
+                  margin-top: -10px;
+                "
+              />
+              <a href="#" style="padding-left: 50px">JOSELINBINO</a>
+            </div>
+          </div>
+
+          <div class="col-sm-9">
+            <div class="navigation-menu">
+              <div class="navbar">
+                <div class="navbar-header">
+                  <button
+                    type="button"
+                    class="navbar-toggle"
+                    data-toggle="collapse"
+                    data-target=".navbar-collapse"
+                  >
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+
+                <div class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li>
+                      <a class="active smoth-scroll" href="#home">Home</a>
+                    </li>
+                    <li><a class="smoth-scroll" href="#about">About</a></li>
+                    <li>
+                      <a class="smoth-scroll" href="#portfolio">Projects</a>
+                    </li>
+                    <li><a class="smoth-scroll" href="#contact">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- // NAVIGATION END -->
+
+    <!-- // HOME BEGIN -->
+    <div
+      id="home"
+      class="home-bg"
+      style="background-image: url('assets/img/blog/bgwall.webp')"
+      data-stellar-background-ratio="0.6"
+    >
+      <div class="overlay">
+        <div class="container">
+          <div class="row">
+            <div class="home-text">
+              <div
+                class="profile-pic"
+                data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0"
+              >
+                <img src="assets/img/blog/IMG_20240223_150355.jpg" />
+              </div>
+
+              <div
+                data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0"
+              >
+                <h1>Hi, I'm JoselinBino</h1>
+                <h3 id="text-rotator">
+                  <div>Java Developer</div>
+                  <div>Backend Developer</div>
+                  <div>Programmer</div>
+                  <div>Web Developer</div>
+                </h3>
+              </div>
+            </div>
+            <a class="smoth-scroll" href="#about"
+              ><i class="fa fa-angle-down arrow"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- // HOME END -->
+
+    <!-- // ABOUT BEGIN -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <!-- Description Section -->
+          <div class="description col-md-6 col-sm-6 col-xs-12">
+            <h2>Hello, I am Joselin Bino J</h2>
+            <h4>
+              Associate Software Developer at
+              <a
+                style="color: Black"
+                href="https://www.iqvia.com/"
+                target="_blank"
+                >VISARA</a
+              >
+            </h4>
+            <p>
+              Welcome to my portfolio website!<br />
+              I am a dedicated Java Developer with over 1 year of experience in
+              software development. I have a solid understanding of
+              object-oriented principles and design patterns. I am skilled in
+              utilizing Java frameworks such as Spring Boot and Hibernate to
+              build resilient and performant systems. Additionally, I am adept
+              at working with databases, including MySQL, and proficient in
+              utilizing tools like Maven and Git for streamlined development
+              processes.
+              <br /><br />
+            </p>
+
+            <!-- Collapsible Content Button -->
+            <button
+              id="idaboutcollapse"
+              class="btn btn-link collapsed"
+              data-toggle="collapse"
+              data-target="#aboutcollapse"
+              aria-expanded="false"
+              aria-controls="aboutcollapse"
+            >
+              Show More
+            </button>
+            <!-- Collapsible Content -->
+            <div
+              id="aboutcollapse"
+              class="collapse"
+              aria-labelledby="headingThree"
+              data-parent="#accordion"
+            >
+              <p>
+                Through this website, you will discover a collection of my
+                projects and certifications that showcase my abilities and
+                creative problem-solving approach. If you're seeking a Java
+                Developer who is passionate about delivering excellence, let's
+                connect and collaborate on creating something remarkable
+                together.
+              </p>
+            </div>
+
+            <!-- Social Icons -->
+            <ul class="social-icons">
+              <!-- Uncomment the Instagram link if needed -->
+              <!-- <li><a href=""><i class="fa fa-instagram"></i></a></li> -->
+              <li>
+                <a href="https://github.com/Joselinbino/" target="_blank"
+                  ><i class="fa fa-github"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/joselin-bino-7794aa19b"
+                  target="_blank"
+                  ><i class="fa fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+
+            <!-- Resume Download Button -->
+            <p>
+              <a
+                href="assets/Resume/Joselinbino-Resume.pdf"
+                class="btn btn-dark with-arrow smoth-scroll"
+                target="_blank"
+              >
+                My Resume
+                <i class="fa fa-download"></i>
+              </a>
+            </p>
+          </div>
+
+          <!-- Facts Section -->
+          <div class="facts col-md-6 col-sm-6 col-xs-12">
+            <div class="row">
+              <!-- Badge Image -->
+              <div
+                id="badge"
+                class="col-md-8 col-sm-8 col-xs-12 float-center"
+                style="object-fit: cover; padding-left: 5px"
+              >
+                <img
+                  src="assets/img/blog/Badges.jpg"
+                  style="height: 150px"
+                  alt="Badges"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- // ABOUT END -->
+
+    <!-- // SKILLS BEGIN -->
+    <section id="skills">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>My Skills</h2>
+          </div>
+
+          <div class="col-md-5 col-sm-6 col-xs-12">
+            <div class="progress-box">
+              <p>
+                Java
+                <span class="color-heading pull-right">75%</span>
+              </p>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-color-base"
+                  role="progressbar"
+                  data-width="75"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5 col-sm-6 col-xs-12 skills-right">
+            <div class="progress-box">
+              <p>
+                MySQL
+                <span class="color-heading pull-right">70%</span>
+              </p>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-color-base"
+                  role="progressbar"
+                  data-width="70"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5 col-sm-6 col-xs-12">
+            <div class="progress-box">
+              <p>
+                HTML
+                <span class="color-heading pull-right">80%</span>
+              </p>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-color-base"
+                  role="progressbar"
+                  data-width="80"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5 col-sm-6 col-xs-12 skills-right">
+            <div class="progress-box">
+              <p>
+                CSS
+                <span class="color-heading pull-right">80%</span>
+              </p>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-color-base"
+                  role="progressbar"
+                  data-width="80"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5 col-sm-6 col-xs-12">
+            <div class="progress-box">
+              <p>
+                Spring Boot
+                <span class="color-heading pull-right">75%</span>
+              </p>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-color-base"
+                  role="progressbar"
+                  data-width="75"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5 col-sm-6 col-xs-12 skills-right">
+            <div class="progress-box">
+              <p>
+                JavaScript
+                <span class="color-heading pull-right">40%</span>
+              </p>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-color-base"
+                  role="progressbar"
+                  data-width="40"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5 col-sm-6 col-xs-12">
+            <div class="progress-box">
+              <p>
+                Maven
+                <span class="color-heading pull-right">60%</span>
+              </p>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-color-base"
+                  role="progressbar"
+                  data-width="60"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5 col-sm-6 col-xs-12 skills-right">
+            <div class="progress-box">
+              <p>
+                GCP
+                <span class="color-heading pull-right">40%</span>
+              </p>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-color-base"
+                  role="progressbar"
+                  data-width="40"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5 col-sm-6 col-xs-12">
+            <div class="progress-box">
+              <p>
+                REST API
+                <span class="color-heading pull-right">70%</span>
+              </p>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-color-base"
+                  role="progressbar"
+                  data-width="70"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tools">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>Tools</h2>
+          </div>
+
+          <div class="col-md-5 col-sm-6 col-xs-12">
+            <div class="progress-box">
+              <p>
+                Eclipse
+                <span class="color-heading pull-right">80%</span>
+              </p>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-color-base"
+                  role="progressbar"
+                  data-width="80"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5 col-sm-6 col-xs-12 skills-right">
+            <div class="progress-box">
+              <p>
+                VS Code
+                <span class="color-heading pull-right">80%</span>
+              </p>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-color-base"
+                  role="progressbar"
+                  data-width="80"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5 col-sm-6 col-xs-12">
+            <div class="progress-box">
+              <p>
+                GitHub
+                <span class="color-heading pull-right">70%</span>
+              </p>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-color-base"
+                  role="progressbar"
+                  data-width="70"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-5 col-sm-6 col-xs-12 skills-right">
+            <div class="progress-box">
+              <p>
+                Postman
+                <span class="color-heading pull-right">70%</span>
+              </p>
+              <div class="progress">
+                <div
+                  class="progress-bar bg-color-base"
+                  role="progressbar"
+                  data-width="70"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- // SKILLS END -->
+
+    <!-- // PORTFOLIO BEGIN -->
+    <section id="portfolio">
+      <div class="container">
+        <div class="row">
+          <!-- Section Title -->
+          <div data-aos="fade-up">
+            <div class="col-md-12 text-center">
+              <h2>Projects</h2>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="filter-btn col-md-12 text-center">
+                <div class="filter active" data-filter="all">All</div>
+                <div class="filter" data-filter=".website">Web-Application</div>
+                <!-- <div class="filter" data-filter=".app">App</div> -->
+              </div>
+
+              <!-- Portfolio Items -->
+              <div id="port-image" class="container">
+                <!-- Project Card 1 -->
+                <div class="card website grid mix">
+                  <div class="card-header">
+                    <img
+                      src="assets/img/projects/Goldpal.png"
+                      alt="Joselin Project"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <span class="tag tag-teal">Dynamic Website</span>
+                    <h4>
+                      Users can register and log in to access their personalized
+                      dashboard, view live gold rates, purchase gold digitally,
+                      and track their purchase history along with accumulated
+                      interest.
+                    </h4>
+                    <div>
+                      <a href="#" class="btn btn-primary">Live</a>
+                      <!-- <a href="#" class="btn btn-success">View on Github</a> -->
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="card website grid mix">
+                  <div class="card-header">
+                    <img
+                      src="assets/img/projects/Visaratech.png"
+                      alt="Joselin Project"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <span class="tag tag-pink">Static Website</span>
+                    <h4>
+                      Developed a static website for the company, showcasing
+                      their services and enhancing their online presence. Users
+                      can navigate through the site, explore the company's
+                      offerings.
+                    </h4>
+                    <div>
+                      <a
+                        href="https://visaratech.com"
+                        class="btn btn-primary"
+                        target="_blank"
+                        >Live</a
+                      >
+                      <!-- <a href="#" class="btn btn-success">View on Github</a> -->
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="card website grid mix">
+                  <div class="card-header">
+                    <img
+                      src="assets/img/projects/Ruraleducation.png"
+                      alt="Joselin Project"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <span class="tag tag-teal">Dynamic Website</span>
+                    <h4>
+                      Developed a web application to support rural education,
+                      allowing students to apply for scholarships while enabling
+                      administrators to view and review applications.
+                    </h4>
+                    <div>
+                      <a
+                        href="https://ruraleducationsupport.com"
+                        class="btn btn-primary"
+                        target="_blank"
+                        >Live</a
+                      >
+                      <!-- <a href="#" class="btn btn-success">View on Github</a> -->
+                    </div>
+                  </div>
+                </div>
+                <!-- Project Card 4 -->
+                <div class="card website grid mix">
+                  <div class="card-header">
+                    <img
+                      src="assets/img/projects/Vtransit.png"
+                      alt="Joselin Project"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <span class="tag tag-teal">Dynamic Website</span>
+                    <h4>
+                      Developed a web application to support rural education,
+                      allowing students to apply for scholarships while enabling
+                      administrators to view and review applications.
+                    </h4>
+                    <div>
+                      <a
+                        href="https://globalvisaratech.com"
+                        class="btn btn-primary"
+                        target="_blank"
+                        >Live</a
+                      >
+                      <!-- <a href="#" class="btn btn-success">View on Github</a> -->
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Project Card 5 -->
+                <div class="card website grid mix">
+                  <div class="card-header">
+                    <img
+                      src="assets/img/projects/Csr.png"
+                      alt="Joselin Project"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <span class="tag tag-teal">Dynamic Website</span>
+                    <h4>
+                      Developed a CSR web application that allows users to
+                      submit request applications. Administrators can review,
+                      process, and manage these applications efficiently.
+                    </h4>
+                    <div>
+                      <a
+                        href="https://thiruvallurdistrictcsr.com"
+                        class="btn btn-primary"
+                        target="_blank"
+                        >Live</a
+                      >
+                      <!-- <a href="#" class="btn btn-success">View on Github</a> -->
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Space for layout adjustment -->
+                <div id="space"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- // PORTFOLIO END -->
+
+    <!-- // HIRE BEGIN -->
+    <section id="hire">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9 col-sm-6 col-xs-12">
+            <h2>Let's Connect</h2>
+            <p>
+              I am eager to connect with professionals and explore new
+              opportunities. Connect with me on LinkedIn or send me a message to
+              discuss potential collaborations.
+            </p>
+          </div>
+
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <p>
+              <a href="#contact" class="btn btn-dark btn-lg smoth-scroll"
+                >Get in Touch</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- // HIRE END -->
+
+    <!-- // Certificates -->
+
+    <section id="certificates">
+      <div class="container">
+        <div style="text-align: center">
+          <h2>Certificates</h2>
+        </div>
+
+        <!-- four columns -->
+        <div class="row">
+          <div class="grid col-md-4 col-sm-6 col-xs-12">
+            <a
+              href="assets/img/certificates/Certificate.jpeg"
+              class="image-popup"
+            >
+              <img
+                src="assets/img/certificates/Certificate.jpeg"
+                alt="Snow"
+                style="width: 90%"
+                onclick="myFunction(this);"
+            /></a>
+          </div>
+          <div class="grid col-md-4 col-sm-6 col-xs-12">
+            <a href="assets/img/certificates/Mysql.jpg" class="image-popup">
+              <img
+                src="assets/img/certificates/Mysql.jpg"
+                alt="Snow"
+                style="width: 90%"
+                onclick="myFunction(this);"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- // Certificates End-->
+
+    <!-- // CONTACT BEGIN -->
+    <section id="contact">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>Contact Me</h2>
+          </div>
+
+          <div class="address-icons col-md-8 col-md-offset-2">
+            <div class="col-md-4 col-sm-4">
+              <i class="fa fa-envelope fa-2x"></i>
+              <p>1612joselinshanthi@gmail.com</p>
+            </div>
+
+            <div class="col-md-4 col-sm-4">
+              <i class="fa fa-map-marker fa-2x"></i>
+              <p>
+                WestMambalam <br />
+                Chennai, TamilNadu, India <br />Pin: 600033
+              </p>
+            </div>
+
+            <div class="col-md-4 col-sm-4">
+              <i class="fa fa-phone fa-2x"></i>
+              <p>+91 7010420471</p>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- // CONTACT END -->
+
+    <!-- // FOOTER BEGIN -->
+    <footer id="footer">
+      <div class="container">
+        <div class="col-md-12 text-center">
+          <ul class="social-icons-footer">
+            <li>
+              <a href="https://github.com/Joselinbino/"
+                ><i class="fa fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/joselin-bino-7794aa19b"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- // FOOTER END -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.13/lottie.min.js"
+      integrity="sha512-srGxQe2w7s50+5/nNgEVKYtBm15zRylJwdjxYnGEZr3mmHFJKFjA/ImA2OKizVzoIDX8XISMHDI1+az9pnumbQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- js plugin -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.stellar.min.js"></script>
+    <script src="assets/js/text-rotate.js"></script>
+    <script src="assets/js/numscroller.js"></script>
+    <script src="assets/js/jquery.appear.js"></script>
+    <script src="assets/js/progress-bar.min.js"></script>
+    <script src="assets/js/jquery.mixitup.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/magnific-popup-options.js"></script>
+    <script src="assets/js/jquery.flexslider-min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/jquery.form.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
+
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
