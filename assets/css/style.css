@@ -539,94 +539,78 @@ body {
 /* 06. ABOUT
 =================================================*/
 
-#idaboutcollapse{
+#idaboutcollapse {
 	padding-top: 3px;
 	padding-bottom: 0px;
 	padding-left: 0px;
-}
-
-#about {
-	padding: 90px 0 75px;
+  }
+  
+  #about {
+	padding: 90px 15px 75px; /* Adjusted for small screens */
 	background: #fff;
-}
-
-#about h2 {
+  }
+  
+  #about h2 {
 	margin-top: 0;
-}
-
-.description {
+  }
+  
+  .description {
 	max-width: 100%;
-	width: 41em;
 	margin-bottom: -10px;
-}
-
-.description p {
+  }
+  
+  .description p {
 	margin-bottom: 20px;
-}
-
-.social-icons {
+  }
+  
+  /* Responsive padding for small screens */
+  @media only screen and (max-width: 768px) {
+	#about {
+	  padding-left: 15px;
+	  padding-right: 15px;
+	}
+  }
+  
+  /* Ensures content does not touch the edges on very small screens */
+  @media only screen and (max-width: 480px) {
+	.description {
+	  padding-left: 15px;
+	  padding-right: 15px;
+	}
+  }
+  
+  /* Social icons */
+  .social-icons {
 	padding-left: 0px;
-}
-
-.social-icons li {
+  }
+  
+  .social-icons li {
 	display: inline-block;
-	display: -moz-inline-stack;
 	list-style: none;
 	margin: 0;
 	padding: 0;
-}
-
-.social-icons li a {
+  }
+  
+  .social-icons li a {
 	color: #131313;
 	background: rgba(42, 41, 41, 0);
 	display: inline-block;
-	display: -moz-inline-stack;
 	width: 50px;
 	height: 40px;
 	box-sizing: border-box;
 	-webkit-transition: all ease-in-out 0.3s;
 	transition: all ease-in-out 0.3s;
-}
-
-.social-icons li a:hover {
+  }
+  
+  .social-icons li a:hover {
 	color: #48b14d;
-}
-
-.social-icons li a i {
+  }
+  
+  .social-icons li a i {
 	font-size: 1.3em;
-}
-
-.facts {
-	float: right;
-	margin-top: 30px;
-}
-
-.count-item {
-	margin-right: 0;
-	margin-bottom: 20px;
-}
-
-.numscroller {
-	color: #131313;
-	font-size: 2em;
-	font-weight: 600;
-	margin-bottom: 15px;
-	margin-top: 20px;
-	font-family: 'Lato', sans-serif;
-}
-
-.count-name-intro {
-	color: #131313;
-	font-size: 1.3em;
-	font-weight: 600;
-	font-family: 'Lato', sans-serif;
-}
-
-@media only screen and (min-width: 300px) and (max-width: 640px){
-	#badge{
-		margin-left: -10px;
-	}
-}
+  }
+  
+  
 
 
 /* 07. SKILLS
